@@ -1,8 +1,9 @@
-import user_interface
-
+from user_interface import interactions
+from conta_corrente import Conta
 
 def main():
-    user_interface.interactions()
+    conta = Conta("Guilherme")
+    interactions(conta)
 
 
 if __name__ == "__main__":
